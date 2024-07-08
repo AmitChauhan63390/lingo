@@ -44,7 +44,7 @@ export const UserProgress = ({ activeCourse,
                         height={22}
                         width={22}
                         alt="Hearts" />
-                   { {hasActiveSubscription}?<InfinityIcon className="h-4 w-4 stroke-[3]"/>:hearts}
+                   { false&&{hasActiveSubscription}?<InfinityIcon className="h-4 w-4 stroke-[3]"/>:hearts}
                 </Button>
             </Link>
 
